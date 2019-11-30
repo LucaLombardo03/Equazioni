@@ -10,14 +10,14 @@ namespace EquazioniLibrary
     {
         public static bool IsDetermined(double a, double b)
         {
-            if (a != 0 & b != 0)
+            if (a != 0 && b != 0)
                 return true;
             else
                 return false;
         }
         public static bool IsInconsisted(double a, double b)
         {
-            if (a == 0 & b != 0)
+            if (a == 0 && b != 0)
                 return true;
             else
                 return false;
@@ -51,6 +51,10 @@ namespace EquazioniLibrary
             string y;
             y = ((-b) / a).ToString();
             return y;
+        }
+        public static string EquationDegree2(double a, double delta, double b, double c)
+        {
+
         }
     }
 }
