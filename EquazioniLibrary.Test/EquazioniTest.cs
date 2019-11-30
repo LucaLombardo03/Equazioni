@@ -27,16 +27,14 @@ namespace EquazioniLibrary.Test
         public void IsInconsisted()
         {
             double a = 0;
-            double b = 6;
-            bool risposta = Equazioni.IsInconsisted(a,b);
+            bool risposta = Equazioni.IsInconsisted(a);
             Assert.AreEqual(true, risposta);
         }
         [TestMethod]
         public void IsNotInconsisted()
         {
             double a = 4;
-            double b = 6;
-            bool risposta = Equazioni.IsInconsisted(a, b);
+            bool risposta = Equazioni.IsInconsisted(a);
             Assert.AreEqual(false, risposta);
         }
         [TestMethod]

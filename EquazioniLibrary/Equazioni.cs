@@ -52,9 +52,15 @@ namespace EquazioniLibrary
             y = ((-b) / a).ToString();
             return y;
         }
-        public static string EquationDegree2(double a, double delta, double b, double c)
+        public static string EquationDegree2(double a, double b, double c, double delta)
         {
-
+            string x1;
+            string x2;
+            if (c == 0)
+            {
+                x1 = 0.ToString();
+                x2 = 
+            }
         }
     }
 }
